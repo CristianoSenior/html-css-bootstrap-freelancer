@@ -2,19 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'monserrat';
+  color:white;
 }
 
-
- .container::after{
-   content: "";
-   display: table;
-   clear: both;
- }
-
- [class*="col-"]{
-   float: left;
-
-}
 .blue {
   background-color: #2C3E50;
 }
@@ -26,41 +17,65 @@
 .resizedavatar {
   width: auto;
   height: 300px;
-
-
 }
 
+.white2{
+  color: white;
+
+}
 .sec1{
   background-color: #1abc9c;
   margin-top: 50px;
-
-
 }
 
-.bc{
-  padding-top:100px;
+.back{
   background-color: #1abc9c;
+}
 
+.pmargin{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.rigastellamar{
+  margin-bottom: 20px;
+}
+.seiimg{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.marginrow{
+  margin-bottom: 15px;
+}
+
+.float{
+  float: left;
 }
 .centra{
   text-align: center;
 }
 
 .linea{
+  height: 9px;
   border-bottom: 3px solid black;
-  width: 100px;
-  border-radius: 20%;
-}
+  float:left;
 
+}
+.nomarg{
+margin-left: 0;
+margin-right: 0;
+}
+.star{
+  display: block;
+  float: left;
+}
 .spaziosopra{
-  margin-top:10px;
+  margin-top:12px;
   padding-left: 10px;
 }
 
 .bkcoljumb{
   background-color: #1abc9c;
-}
-
-.inline{
-  display: inline-block;
 }
